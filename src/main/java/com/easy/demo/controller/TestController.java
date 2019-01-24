@@ -1,10 +1,10 @@
-package com.jerry.demo.controller;
+package com.easy.demo.controller;
 
-import com.jerry.demo.service.DemoService;
-import com.jerry.mvcframework.annotation.JAutowired;
-import com.jerry.mvcframework.annotation.JController;
-import com.jerry.mvcframework.annotation.JRequestMapping;
-import com.jerry.mvcframework.annotation.JRequestParam;
+import com.easy.demo.service.DemoService;
+import com.easy.mvcframework.annotation.JAutowired;
+import com.easy.mvcframework.annotation.JController;
+import com.easy.mvcframework.annotation.JRequestMapping;
+import com.easy.mvcframework.annotation.JRequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

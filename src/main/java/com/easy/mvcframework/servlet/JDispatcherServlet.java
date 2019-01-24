@@ -1,6 +1,6 @@
-package com.jerry.mvcframework.servlet;
+package com.easy.mvcframework.servlet;
 
-import com.jerry.mvcframework.annotation.*;
+import com.easy.mvcframework.annotation.*;
 import lombok.Data;
 import lombok.ToString;
 

@@ -10,7 +10,7 @@
 
     <servlet>
         <servlet-name>jmvc</servlet-name>
-        <servlet-class>com.jerry.mvcframework.servlet.JDispatcherServlet</servlet-class>
+        <servlet-class>com.easy.mvcframework.servlet.JDispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>application.properties</param-value>
