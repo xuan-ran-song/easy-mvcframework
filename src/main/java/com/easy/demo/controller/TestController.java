@@ -22,17 +22,18 @@ public class TestController {
 
     @JRequestMapping("/test")
     public void test(HttpServletRequest req, HttpServletResponse resp , @JRequestParam("name") String name){
-        System.out.println("name = " + name);
+        demoService.getName(name);
+        System.out.println("test: name = " + name);
     }
 
     @JRequestMapping("/test1")
     public void test1(HttpServletRequest req, HttpServletResponse resp ,@JRequestParam("name") String name){
-
+        System.out.println("test1: name = " + name);
     }
 
     @JRequestMapping("/test2")
     public void test2(HttpServletRequest req, HttpServletResponse resp ,@JRequestParam("name") String name){
-
+        System.out.println("test2: name = " + name);
     }
 
 
