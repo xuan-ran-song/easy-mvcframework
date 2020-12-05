@@ -1,7 +1,7 @@
 package com.easy.demo.service;
 
 /**
- * Created by Yangjy on 2018/2/27.
+ * Created by PPS
  */
 public interface DemoService {
 

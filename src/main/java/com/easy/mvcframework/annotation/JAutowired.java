@@ -3,7 +3,7 @@ package com.easy.mvcframework.annotation;
 import java.lang.annotation.*;
 
 /**
- * Created by Yangjy on 2018/2/27.
+ * Created by PPS
  */
 @Target({ElementType.FIELD})     //字段、枚举的常量
 @Retention(RetentionPolicy.RUNTIME)     //注解会在class字节码文件中存在，在运行时可以通过反射获取到

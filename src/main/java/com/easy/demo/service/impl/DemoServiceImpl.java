@@ -4,7 +4,7 @@ import com.easy.demo.service.DemoService;
 import com.easy.mvcframework.annotation.JService;
 
 /**
- * Created by Yangjy on 2018/2/27.
+ * Created by PPS
  */
 @JService
 public class DemoServiceImpl implements DemoService{
